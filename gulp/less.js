@@ -34,3 +34,14 @@ gulp.task('less', function() {
   .pipe(gulp.dest(cfg.build.css))
   .pipe(browserSync.stream());
 });
+
+var gulp = require('gulp');
+var watchLess = require('gulp-watch-less');
+var less = require('gulp-less');
+ 
+gulp.task('less-watch', function () {
+    return gulp.src('less/event.less')
+        .pipe(watchLess('less/**/*.less'))
+        .pipe(less())
+          .pipe(gulp.dest(cfg.build.css))
+});
