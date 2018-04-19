@@ -1,5 +1,5 @@
 var gulp = require('gulp');
-var less = require('gulp-less');
+var sass = require('gulp-sass');
 var cfg = require('../package.json').config;
 
 var plumber = require('gulp-plumber');
@@ -14,10 +14,10 @@ var mqpacker = require("css-mqpacker");
 var minify = require("gulp-csso"); 
 // var del = require("del");
 
-gulp.task('less', function() {
-  return gulp.src( cfg.src.less + '/event.less')
+gulp.task('sass', function() {
+  return gulp.src( cfg.src.sass + '/event.{sass,scss}')
   .pipe(plumber())
-  .pipe(less())
+  .pipe(sass())
   .pipe(postcss([ 
     autoprefixer({ browsers: [
   'last 10 versions', 
@@ -35,13 +35,13 @@ gulp.task('less', function() {
   .pipe(browserSync.stream());
 });
 
-var gulp = require('gulp');
-var watchLess = require('gulp-watch-less');
-var less = require('gulp-less');
+// var gulp = require('gulp');
+// var watchLess = require('gulp-watch-less');
+// var less = require('gulp-less');
  
-gulp.task('less-watch', function () {
-    return gulp.src('less/event.less')
-        .pipe(watchLess('less/**/*.less'))
-        .pipe(less())
-          .pipe(gulp.dest(cfg.build.css))
-});
+// gulp.task('less-watch', function () {
+//     return gulp.src('less/event.less')
+//         .pipe(watchLess('less/**/*.less'))
+//         .pipe(less())
+//           .pipe(gulp.dest(cfg.build.css))
+// });

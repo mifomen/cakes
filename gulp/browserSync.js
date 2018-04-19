@@ -20,5 +20,5 @@ gulp.task("serve", function() {
    gulp.watch("src/img/*.{jpg,png,svg}", ["retype-images"]).on("change", browserSync.reload);
      gulp.watch("src/**/*.js", ["retype-js"]).on("change", browserSync.reload);
   gulp.watch("src/*.html", ["html"]).on("change", browserSync.reload);
-  gulp.watch("src/**/*.less", ["less"]).on('change', browserSync.reload);
+  gulp.watch("src/**/*.{scss,sass}", ["sass"]).on('change', browserSync.reload);
 });

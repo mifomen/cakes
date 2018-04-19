@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var cfg = require('../package.json').config;
 var run = require("run-sequence");
-var less = require('gulp-less');
+// var less = require('gulp-less');
 
 gulp.task("build", function(evt) {
   run(
@@ -10,7 +10,7 @@ gulp.task("build", function(evt) {
     "retype-images",
     "retype-fonts",
     "html",
-    "less",
+    "sass",
     "retype-js",
     // "images",
     // "symbols",
