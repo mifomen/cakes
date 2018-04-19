@@ -4,12 +4,12 @@ $desktop: "(min-width: 1200px)";
 body {
   padding:0;
   margin:0 auto;
- // background-color: red;
+ // background-color: red;z
 @media #{$mobile} {
 	background-color: yellow;
 }
 @media #{$tablet} {
-	background-color: red;
+	background-color: #afd;
 }
 @media #{$desktop} {
 	background-color: blue;
