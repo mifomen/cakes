@@ -1,29 +1,3 @@
-<<<<<<< HEAD
-=======
-$mobile: "(min-width: 320px)";
-$tablet: "(min-width: 768px)";
-$desktop: "(min-width: 1200px)";
-body {
-  padding:0;
-  margin:0 auto;
- // background-color: red;z
-@media #{$mobile} {
-	background-color: yellow;
-  max-width: 320px;
-  border:2px solid green;
-}
-@media #{$tablet} {
-	background-color: #afd;
-    max-width: 768px;
-     border:2px solid darkblue;
-}
-@media #{$desktop} {
-	background-color: blue;
-  max-width: 1200px;
-   border:2px solid darkorange;
-}
-}
->>>>>>> c3f795cd977bc91dfb76add009f0dac3d2f8446f
 .nav-menu {
   background-color: white;
   posotion: relative;
