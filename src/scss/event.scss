@@ -1,5 +1,19 @@
+@import "blocks/variables.scss";
+@import "blocks/mixins.scss";
 body {
-// background-color: red;  
+  padding:0;
+  margin:0 auto;
+  height: 9000px;
+  @media #{$mobile} {
+    background-color: #fbebea;
+  }
+  @media #{$tablet} {
+    background-color: #afd;
+  }
+  @media #{$desktop} {
+    background-color: blue;
+  }
 }
-
+@import "blocks/fonts.scss";
 @import "blocks/header.scss";
+@import "blocks/our-cakes.scss";

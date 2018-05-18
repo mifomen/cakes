@@ -1,20 +1,69 @@
-// $defaultFont:'Arial', 'Helvetica', sans-serif;
-// $fontStyle: normal;
-// $fontRoboto: 'Roboto', $defaultFont;
+$defaultFont: 'Arial', Helvetica, sans-serif;
+
+$fontRoboto: 'Roboto', $defaultFont;
+
+$CirceBold: 'Circe-Bold', 'Times New Roman', sans-serif;
+$CirceRegular: 'CirceRegular', 'Helvetica', sans-serif;
+$IntroScriptRH2Base: 'IntroScriptRH2Base', 'Helvetica', sans-serif;
+$PlayFairBold: 'playfair-display-bold', 'Helvetica', sans-serif;
+$RobotoRegular: 'RobotoRegular', 'Helvetica', sans-serif;
+$PlayfairBoldItalic: 'PlayfairDisplay-BlackItalic', 'Helvetica', sans-serif;
 
 
-// $fontDisplay: auto; //block swap auto
 
-// // @font-face {
-// //   font-family: 'Roboto';
-// //   src: url(/fonts/roboto.woff2);
-// //   font-display: $fontDisplay;
-// //   font-style: $fontStyle;
-// // }
-// // @font-face {
-// //   font-family: 'Roboto';
-// //   font-style: normal;
-// //   font-weight: 300;
-// //   src: local('Roboto Light'), local('Roboto-Light'), local('sans-serif-light'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fCRc4AMP6lbBP.woff2) format('woff2');
-// //   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-// // }
+
+$fontStyle: normal;
+$fontDisplay: auto; //block swap auto
+
+@font-face {
+  font-family: 'Circe-Bold';
+  src: url(/fonts/Circe-Bold.woff);
+  font-display: $fontDisplay;
+  font-style: $fontStyle;
+}
+
+@font-face {
+  font-family: 'CirceRegular';
+  src: url(/fonts/Circe-Regular.woff);
+  font-display: $fontDisplay;
+  font-style: $fontStyle;
+}
+
+@font-face {
+  font-family: 'IntroScriptRH2Base';
+  src: url(/fonts/IntroScriptR-H2Base.woff);
+  font-display: $fontDisplay;
+  font-style: $fontStyle;
+}
+
+@font-face {
+  font-family: 'playfair-display-bold';
+  src: url(/fonts/playfair-display-bold.woff);
+  font-display: $fontDisplay;
+  font-style: $fontStyle;
+}
+
+@font-face {
+  font-family: 'RobotoRegular';
+  src: url(/fonts/RobotoRegular.woff);
+  font-display: $fontDisplay;
+  font-style: $fontStyle;
+}
+
+@font-face {
+  font-family: 'PlayfairDisplay-BlackItalic';
+  src: url(/fonts/PlayfairDisplay-BlackItalic.woff2);
+  font-display: $fontDisplay;
+  font-style: $fontStyle;
+  font-weight: 300;
+}
+
+
+
+// @font-face {
+//   font-family: 'Roboto';
+//   font-style: normal;
+//   
+//   src: local('Roboto Light'), local('Roboto-Light'), local('sans-serif-light'), url(https://fonts.gstatic.com/s/roboto/v18/KFOlCnqEu92Fr1MmSU5fCRc4AMP6lbBP.woff2) format('woff2');
+//   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+// }
