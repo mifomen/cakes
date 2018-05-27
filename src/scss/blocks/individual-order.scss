@@ -1,0 +1,16 @@
+.individual-order {
+    
+  font-size: 24px;
+  font-family: $MyriadProBlack;
+  font-weight:  lighter;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  &__title {
+
+  }
+  &__sub-title {
+    font-size: 22px;
+      font-family: $IntroScriptRH2Base;
+  }
+}

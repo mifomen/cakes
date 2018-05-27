@@ -8,6 +8,8 @@ $IntroScriptRH2Base: 'IntroScriptRH2Base', 'Helvetica', sans-serif;
 $PlayFairBold: 'playfair-display-bold', 'Helvetica', sans-serif;
 $RobotoRegular: 'RobotoRegular', 'Helvetica', sans-serif;
 $PlayfairBoldItalic: 'PlayfairDisplay-BlackItalic', 'Helvetica', sans-serif;
+$MyriadProBlack: 'MyriadPro-Black', 'Helvetica', sans-serif;
+
 
 
 
@@ -58,6 +60,13 @@ $fontDisplay: auto; //block swap auto
   font-weight: 300;
 }
 
+@font-face {
+  font-family: 'MyriadPro-Black';
+  src: url(/fonts/MyriadPro-Black.woff);
+  font-display: $fontDisplay;
+  font-style: $fontStyle;
+  font-weight: 300;
+}
 
 
 // @font-face {
