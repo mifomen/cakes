@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>The Darkberries concert</title>
+  <title>Title</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
    <link rel="stylesheet" href="css/style.min.css">
   <!-- <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> -->
@@ -17,7 +17,7 @@
   <link rel="preload" href="fonts/IntroScriptR-H2Base.woff" as="font" type="font/woff">
   <link rel="preload" href="fonts/PlayfairDisplay-BlackItalic.woff2" as="font" type="font/woff2">
   <link rel="preload" href="fonts/playfair-display-bold.woff" as="font" type="font/woff">
-  <link rel="preload" href="fonts/ MyriadPro-Black.woff" as="font" type="font/woff">
+  <link rel="preload" href="fonts/MyriadPro-Black.woff" as="font" type="font/woff">
  
   <link rel="preload" href="fonts/RobotoRegular.woff" as="font" type="font/woff">
 </head>
@@ -39,7 +39,7 @@
 
 
   <div class="services">
-    <img src="img/header_.png" alt="" class="services__img">
+    <img src="img/header_.png" alt="picture with cakesm sweet cake" class="services__img">
     <h1 class="services__title">Торты <br>на заказ</h1>
     <h2 class="services__sub-title">Ручная работа</h2>
     <img class="services__we-can-img" src="img/icon.png" alt=""><p class="services__we-can">Натуральные ингредиенты</p>
@@ -96,9 +96,11 @@
       01
     </span>
     <h1 class="cakes-filling__choise-fill">
-      выбери начинку
+      Выбери начинку
     </h1>
-    <img  class="cakes-filling__img" src="" alt="">
+    <div class="cakes-filling__conteiner-for-img">
+    <img  class="cakes-filling__img" src="img/cakes/canash.png" alt="">
+</div>
     <h2 class="cakes-filling__title">
       Шоколадный ганаш
     </h2>
@@ -109,13 +111,97 @@
       1000 руб/кг
     </h3>
     <a class="cakes-filling__button" href="#">
-      Выбрать
+      выбрать
     </a> 
   </div>
+</div>
+
+<div class="cakes-size">
+  <span class="cakes-size__number">
+    02
+  </span>
+  <h1 class="cakes-size__choise-size">
+    Размер
+  </h1>
+  <div class="cakes-size__circle">
+    <!-- <img class="cakes-size__img" src="img/circle.png" alt="circle" width=110px height=110px> -->
+      <span class="cakes-size__weight">кг</span>
+  </div>
+  <div class="cakes-size__slider">
+    <button type=button value="Value1" id="SliderButtonOne" class="cakes-size__slider-button ">1 картинка с весом</button>
+    <label class="cakes-size__slider-label" for="SliderButtonOne">1 картинка с весом</label>
+    <button type=button value="Value2" id="SliderButtonTwo" class="cakes-size__slider-button">2 картинка с весом</button>
+    <label class="cakes-size__slider-label label-two " for="SliderButtonTwo">2 картинка с весом</label>
+    <button type=button value="Value3" id="SliderButtonThree" class="cakes-size__slider-button">3 картинка с весом</button>
+    <label class="cakes-size__slider-label label-two " for="SliderButtonThree">3 картинка с весом</label>
+    <button type=button value="Value4" id="SliderButtonFour" class="cakes-size__slider-button">4 картинка с весом</button>
+    <label class="cakes-size__slider-label label-two " for="SliderButtonFour">1 картинка с весом</label>
+  </div>
+  <span class="cakes-size__exact-size">17-18 см</span>
+  <span class="cakes-size__exact-weight">(1 кг – 6 персон)</span>
+  <a class="cakes-size__button" href="#">
+      выбрать
+    </a> 
+</div>
+
+<div class="decor">
+    <span class="decor__number">
+    03
+  </span>
+  <h1 class="decor__choise-decor">
+    Оформление
+  </h1>
+<div class="decor__wrapper-img">
+  <img class="decor__img" src="img/decor_cake.png" alt="cakes">
+  </div>
+    <div class="decor__slider">
+
+    <button id="DecorBtnOne" class="decor__slider-button" type=button value="value1" >Первый вариант оформления</button>
+    <label class="decor__slider-button-label" for="DecorBtnOne">Первый вариант оформления</label>
+
+    <button id="DecorBtnTwo" class="decor__slider-button" type=button value="value2" >Второй вариант оформления</button>
+    <label class="decor__slider-button-label decor-label-two" for="DecorBtnTwo">Второй вариант оформления</label>
+
+    <button id="DecorBtnThree" class="decor__slider-button" type=button value="value3" >Третий вариант оформления</button>
+    <label class="decor__slider-button-label decor-label-two" for="DecorBtnThree">Третий вариант оформления</label>
+
+    <button id="DecorBtnFour" class="decor__slider-button" type=button value="value4" >Четвертый вариант оформления</button>
+    <label class="decor__slider-button-label decor-label-two" for="DecorBtnFour">Четвертый вариант оформления</label>
+
+    <button id="DecorBtnFive" class="decor__slider-button" type=button value="value5" >Пятый вариант оформления</button>
+    <label class="decor__slider-button-label decor-label-last" for="DecorBtnFive">Пятый вариант оформления</label>
 
 
+
+
+  </div>
+  <span class="decor__name">Маршмэллоу</span>
+  <span class="decor__price">600 руб/кг</span>
+  <a class="decor__button" href="#">
+      выбрать
+    </a> 
+
+
+    <h1 class="decor__title">Ваш выбор</h1>
+    <p class="decor__property">Начинка</p>
+    <span class="decor__property-choisen">Шоколадный ганаш</span>
+    <p class="decor__property">Размер</p>
+    <span class="decor__property-choisen">1 кг</span>
+    <p class="decor__property">Оформление</p>
+    <span class="decor__property-choisen">Маршмэллоу</span>
+     <a class="decor__button" href="#">
+    заказать торт
+    </a> 
+  
+</div>  
+
+<div class="feedback">
+  
+  
 </div>
 </main>
- 
+<script src="js/main.js"></script> 
 </body>
+
+
 </html>

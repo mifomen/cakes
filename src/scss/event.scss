@@ -1,12 +1,13 @@
 @import "blocks/variables.scss";
-@import "blocks/mixins.scss";
+
 body {
   padding:0;
   margin:0 auto;
+  min-width: 320px;
   height: 9000px;
-  @media #{$mobile} {
+
     background-color: #fbebea;
-  }
+
   @media #{$tablet} {
     background-color: #afd;
   }
@@ -14,8 +15,13 @@ body {
     background-color: blue;
   }
 }
+
 @import "blocks/fonts.scss";
+@import "blocks/mixins.scss";
 @import "blocks/header.scss";
 @import "blocks/our-cakes.scss";
 @import "blocks/individual-order.scss";
+@import "blocks/cakes-size.scss";
+@import "blocks/decor.scss";
+@import "blocks/feedback.scss";
 
