@@ -1,0 +1,63 @@
+.features {
+      background-color: #FFF;
+      display: flex;
+      flex-direction: row;
+      flex-wrap:wrap;
+      justify-content:center;
+  &__title {
+    font-family: $PlayFairBold;
+    font-size: 24px;
+    margin:0;
+    
+
+
+  }
+  &__chosen {
+     font-family: $IntroScriptRH2Base;
+     font-size: 22px;
+margin:0;
+
+  }
+  &__img {
+
+  }
+  &__how-we-do {
+    margin:0;
+    padding: 0;
+    font-family: $CirceBold;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+  }
+  &__tagline {
+    margin:0;
+    padding: 0;
+    font-size: 14px;
+    font-family: $CirceRegular;
+    text-align: center;
+
+    width: 100%;
+
+  }
+  &__footer-img-wrapper {
+    position: relative;
+    width: 100%;
+    display: block;
+    height: 175px;
+    // border: 252px solid yellow;
+    overflow: hidden;
+    margin:0 auto;
+
+  }
+  &__footer-img {
+    position: relative;
+    left: -14%;
+
+  }
+}
+.mt-5 {
+  margin-top: 15%;
+}
+.text-align-left {
+  text-align: left;
+}

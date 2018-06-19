@@ -3,17 +3,17 @@
 body {
   padding:0;
   margin:0 auto;
-  min-width: 320px;
-  height: 9000px;
+  max-width: 320px;
+  // height: 9000px;
 
     background-color: #fbebea;
 
-  @media #{$tablet} {
-    background-color: #afd;
-  }
-  @media #{$desktop} {
-    background-color: blue;
-  }
+  // @media #{$tablet} {
+  //   background-color: #afd;
+  // }
+  // @media #{$desktop} {
+  //   background-color: blue;
+  // }
 }
 
 @import "blocks/fonts.scss";
@@ -24,4 +24,14 @@ body {
 @import "blocks/cakes-size.scss";
 @import "blocks/decor.scss";
 @import "blocks/feedback.scss";
+@import "blocks/about-us.scss";
+@import "blocks/features.scss";
+@import "blocks/how-to-order.scss";
+@import "blocks/any-questions.scss";
+@import "blocks/footer.scss";
+
+
+
+
+
 

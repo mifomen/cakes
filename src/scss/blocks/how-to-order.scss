@@ -1,0 +1,58 @@
+.how-to-order {
+  background-color: #e3353d;
+  color:#FFF;
+  padding-top: 5%;
+// @extend %out;
+  &__title {
+    font-size: 24px;
+    font-family: $PlayFairBold;
+    text-align: center;
+    margin:0;
+
+  }
+  &__card {
+    display: flex;
+    // flex-wrap: wrap;
+
+  }
+  &__card-column {
+
+  }
+  &__number {
+    font-family: $PlayFairBold;
+    font-size: 35px;
+    padding-left: 5%;
+    padding-right: 5%;
+    // height: 100%;
+  }
+  &__sub-title {
+   font-family: $CirceBold;
+   font-size: 15px;
+   // width: 90%;
+
+  }
+  &__description {
+   font-family: $CirceRegular;
+    font-size: 14px;
+    width: 90%;
+  }
+  &__img-wrapper {
+    position: relative;
+    // z-index:2;
+    width:100%;
+    overflow: hidden;
+    // outline: 2px solid #eedada;
+    // outline-offset: -3px;
+
+  }
+  &__img {
+    position: relative;
+    display: block;
+    bottom:0;
+    left:-2%;
+     // z-index:3;
+
+  }
+
+
+}

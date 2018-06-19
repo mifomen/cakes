@@ -15,14 +15,25 @@
    width:80%;
  }
  &__wrapper-img {
+  position: relative;
   width: 100%;
   text-align: center;
-
+// @extend %out;
  }
  &__img {
-  align-self: center;
+  position: relative;
+bottom: -2px;
 
 }
+&__count {
+@extend %count;
+font-size: 12px;
+position: absolute;
+bottom: 5%;
+right: 20%;
+}
+
+
 &__slider {
   width: 100%;
   display: flex;
