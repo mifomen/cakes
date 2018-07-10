@@ -1,1 +1,1 @@
-var cakes=document.querySelector(".cakes-filling__button");cakes.addEventListener("click",function(e){e.preventDefault()});var service=document.querySelector(".services__link");service.addEventListener("click",function(e){e.preventDefault()});var size=document.querySelector(".cakes-size__button");size.addEventListener("click",function(e){e.preventDefault()});
+for(var links=document.getElementsByTagName("a"),i=0;i<links.length;i++)links[i].addEventListener("click",function(e){e.preventDefault()});

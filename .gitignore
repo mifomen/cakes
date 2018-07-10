@@ -1,5 +1,6 @@
 node_modules
 *.ttf
+build/
 build
 .publish/
 .publish
