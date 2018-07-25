@@ -1,1 +1,0 @@
-for(var links=document.getElementsByTagName("a"),i=0;i<links.length;i++)links[i].addEventListener("click",function(e){e.preventDefault()});
